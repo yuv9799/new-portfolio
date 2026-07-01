@@ -1,6 +1,6 @@
-# Parinith Reddy — Portfolio
+# Yuvraj Anand — Portfolio
 
-🔗 **Live Site:** [parinithmavurapu.vercel.app](https://parinithmavurapu.vercel.app)
+🔗 **Repository:** [github.com/yuv9799/new-portfolio](https://github.com/yuv9799/new-portfolio)
 
 A cinematic, dark-mode portfolio for an AI/ML engineer, built to showcase projects, skills, achievements, and research with polished motion and a modern editorial feel.
 
@@ -124,14 +124,11 @@ npm run preview
 
 ## Deployment
 
-Deployed on **Vercel** at [parinithmavurapu.vercel.app](https://parinithmavurapu.vercel.app).
-
 ### Steps to deploy
 
 1. Push the project to GitHub
 2. Go to [vercel.com](https://vercel.com) and import the repository
 3. Deploy with default Vite settings — no extra configuration needed
-4. Set your custom domain to `parinithmavurapu.vercel.app` in the Vercel project settings
 
 ---
 
