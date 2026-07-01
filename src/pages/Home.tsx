@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <SEOHead
-        title="Parinith Reddy - Software Engineer | ML Engineer"
-        description="Building scalable backend systems, intelligent ML tools, and modern web applications."
+        title="Yuvraj Anand - Software Engineer | Full-Stack Developer"
+        description="Portfolio of Yuvraj Anand, featuring full-stack applications, machine learning integration, and scalable web engineering."
       />
       <Navbar />
       <main className="scroll-smooth">

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { photographerInfo } from '@/data/photographer';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
@@ -55,7 +56,7 @@ export function ContactForm() {
       const subject = encodeURIComponent(`New ${data.projectType} inquiry from ${data.name}`);
       const body = encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\nType: ${data.projectType}\n\n${data.message}`);
 
-      window.location.href = `mailto:parinithreddymavurapu@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:${photographerInfo.email}?subject=${subject}&body=${body}`;
       setIsSuccess(true);
       form.reset();
 

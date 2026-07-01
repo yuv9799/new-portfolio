@@ -2,34 +2,24 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    org: "Institute Software Development Cell - NIT Delhi",
-    role: "UI/UX and Backend Contributor",
+    org: "Full-Stack Developer & AI/ML Contributor",
+    role: "Independent Projects & Open Source",
     period: "2025 - Present",
-    link: "https://www.figma.com/design/dkhSkTIPfjCPnkIS5hiUp1/Untitled?node-id=0-1&t=slDrh6Ad4GHL3IZT-1",
+    link: "https://github.com/yuv9799",
     points: [
-      "Designed and enhanced UI/UX interfaces for the official institute website serving the NIT Delhi community.",
-      "Contributed to backend development and product improvements for institute-facing web experiences.",
-      "Created placement brochures, LinkedIn posts, and digital media assets supporting institute outreach."
+      "Designed and developed full-stack web applications integrating Generative AI APIs and machine learning pipelines.",
+      "Engineered machine learning systems including SVM-based classification models and K-Means clustering algorithms for customer segmentation.",
+      "Built clean REST APIs with FastAPI (Python) and Express (Node.js) coupled with TypeScript and React/Next.js client-side applications."
     ]
   },
   {
-    org: "Upvision Technical Club",
-    role: "Head Graphic Designer",
+    org: "Creative Web Engineering",
+    role: "Personal Simulation & Tooling Projects",
     period: "2025 - Present",
-    link: "https://www.figma.com/design/NrgW42wzRuIarGR1gBjAfX/Untitled?node-id=0-1&t=fNqZBFHDeEJL44mp-1",
     points: [
-      "Led branding and visual design for technical events and club initiatives.",
-      "Designed brochures, standees, and promotional graphics used across event communications."
-    ]
-  },
-  {
-    org: "Research - NIT Delhi",
-    role: "Locality Sensitive Hashing for Image Similarity Search",
-    period: "2026 - Present",
-    points: [
-      "Investigating approximate nearest neighbour search techniques for scalable image retrieval.",
-      "Benchmarking random projection-based hashing on CIFAR-10 and MNIST across latency, recall, and memory footprint.",
-      "Studying dimensionality reduction via random projections to improve bucket uniformity and reduce collisions."
+      "Created 'Tab-Pocalypse', a real-time canvas-based physics simulation visualizing browser memory leaks and CPU/RAM metrics.",
+      "Developed web utilities including Next.js document printers, interactive generators, and responsive frontend applications.",
+      "Implemented smooth, responsive user experiences utilizing Tailwind CSS, Framer Motion, and modern UI architectures."
     ]
   }
 ];
@@ -64,7 +54,7 @@ export function Experience() {
               <p className="mb-3 text-xs uppercase tracking-[0.24em] text-muted-foreground/80">{experience.period}</p>
               {experience.link && (
                 <a href={experience.link} target="_blank" rel="noopener noreferrer" className="mb-3 inline-block text-sm text-foreground underline underline-offset-4">
-                  View work
+                  View GitHub
                 </a>
               )}
               <ul className="space-y-1.5">

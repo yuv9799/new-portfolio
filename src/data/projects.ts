@@ -3,130 +3,129 @@ import type { Project } from '@/types';
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'Handtracking Piano',
-    category: 'Computer Vision',
-    year: '2025',
-    slug: 'handtracking-piano',
-    coverImage: '/projects/handtracking-piano.svg',
+    title: 'AI SaaS Social Media Manager',
+    category: 'Full-Stack & AI',
+    year: '2026',
+    slug: 'ai-saas-social-media-manager',
+    coverImage: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=800',
     description:
-      'A real-time browser-based piano that turns hand landmarks into playable notes using MediaPipe and Tone.js, all running client-side through WebAssembly.',
-    role: 'Built the gesture pipeline, browser inference flow, and audio interaction system.',
-    client: 'Live Product',
-    camera: 'React, TypeScript, MediaPipe, Tone.js, Vite, WebAssembly',
-    location: 'Browser-based, on-device inference',
-    techStack: ['React', 'TypeScript', 'MediaPipe', 'Tone.js', 'Vite', 'WebAssembly'],
+      'A production-style Next.js and TypeScript application designed for automated, AI-driven social media content generation and campaign scheduling.',
+    role: 'Architected the Next.js app structure, integrated LLM generation endpoints, and built the analytics dashboard.',
+    client: 'AI SaaS Platform',
+    camera: 'Next.js, TypeScript, OpenAI API, Tailwind CSS, Prisma',
+    location: 'Cloud Hosted',
+    techStack: ['Next.js', 'TypeScript', 'OpenAI API', 'Tailwind CSS', 'Prisma', 'PostgreSQL'],
     highlights: [
-      'Engineered a real-time hand-tracking pipeline with sub-50ms end-to-end inference across 21 landmarks per frame.',
-      'Designed a debounced gesture-to-audio mapping system with a 100ms cooldown to suppress jitter and improve note stability.',
-      'Kept the full experience client-side for fast response, lower latency, and zero backend dependency.'
+      'Leveraged state-of-the-art LLMs to generate high-engagement social media posts based on user prompts and brand voice.',
+      'Designed an interactive content calendar and queue system for automated cross-platform campaign scheduling.',
+      'Implemented robust user authentication, request caching, and a responsive workspace UI.'
     ],
     links: {
-      live: 'https://handtracking-piano.vercel.app/',
-      repo: 'https://github.com/parinith-web/Handtracking-Piano'
+      repo: 'https://github.com/yuv9799/ai-saas-social-media-manager'
     },
     images: [
       {
         id: '1-1',
-        src: '/projects/handtracking-piano.svg',
-        alt: 'Handtracking Piano project cover',
+        src: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=800',
+        alt: 'AI SaaS Social Media Manager dashboard',
         aspectRatio: 'landscape',
-        caption: 'Real-time hand landmark detection and browser audio synthesis.'
+        caption: 'AI generation workspace and content scheduling pipeline.'
       }
     ]
   },
   {
     id: '2',
-    title: 'Audify',
+    title: 'Customer Segmentation Engine',
     category: 'Machine Learning',
-    year: '2025',
-    slug: 'audify',
-    coverImage: '/projects/audify.svg',
+    year: '2026',
+    slug: 'customer-segmentation-engine',
+    coverImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
     description:
-      'A content-aware music recommendation system trained on Spotify audio features, combining clustering and similarity search for more relevant song discovery.',
-    role: 'Built the recommendation logic, ML workflow, and product-facing application layer.',
-    client: 'ML Recommendation Engine',
-    camera: 'Python, Next.js, Scikit-learn, Spotify API, K-Means',
-    location: 'Data-driven personalization',
-    techStack: ['Python', 'Next.js', 'Scikit-learn', 'Spotify API', 'K-Means Clustering'],
+      'An advanced machine learning web application that segments customers using the K-Means clustering algorithm, featuring interactive cluster distributions and real-time inference.',
+    role: 'Developed the FastAPI backend, scikit-learn clustering pipeline, and interactive React client.',
+    client: 'Data Analytics System',
+    camera: 'Python, FastAPI, scikit-learn, React, TypeScript, Tailwind CSS',
+    location: 'Local / Remote Inference API',
+    techStack: ['Python', 'FastAPI', 'scikit-learn', 'React', 'TypeScript', 'Tailwind CSS', 'pandas'],
     highlights: [
-      'Trained on 10,000+ Spotify tracks using high-dimensional audio features like tempo, energy, valence, and danceability.',
-      'Implemented a hybrid pipeline using cluster retrieval plus cosine similarity ranking.',
-      'Balanced recommendation quality with discovery using 80% intra-cluster retrieval and 20% cross-cluster diversity sampling.'
+      'Implemented K-Means clustering for customer grouping based on demographic and transactional features.',
+      'Built a FastAPI backend supporting both single customer evaluation and high-volume batch segmentation.',
+      'Designed dynamic frontend visualizations displaying the elbow method curve and scatter plot cluster groupings.'
     ],
     links: {
-      repo: 'https://github.com/parinith-web/Audify'
+      repo: 'https://github.com/yuv9799/customer-segmentation'
     },
     images: [
       {
         id: '2-1',
-        src: '/projects/audify.svg',
-        alt: 'Audify project cover',
+        src: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
+        alt: 'Customer Segmentation cluster plots',
         aspectRatio: 'landscape',
-        caption: 'Audio-feature clustering and hybrid recommendation ranking.'
+        caption: 'Real-time segmentation dashboard showing cluster demographics.'
       }
     ]
   },
   {
     id: '3',
-    title: 'PurePixels',
-    category: 'Full-Stack',
-    year: '2025',
-    slug: 'purepixels',
-    coverImage: '/projects/purepixels.svg',
+    title: 'Diabetes Prediction Platform',
+    category: 'Machine Learning',
+    year: '2026',
+    slug: 'diabetes-prediction-platform',
+    coverImage: 'https://images.unsplash.com/photo-1530026405186-ed1ea0ac7a63?auto=format&fit=crop&q=80&w=800',
     description:
-      'A full-stack image segmentation platform with FastAPI-powered background removal, account-aware request handling, and low-latency transparent PNG delivery.',
-    role: 'Built the backend architecture, image-processing workflow, and the application stack around it.',
-    client: 'Production-style Full-Stack Platform',
-    camera: 'Next.js, TypeScript, Tailwind CSS, FastAPI, PostgreSQL',
-    location: 'Scalable API and image workflow',
-    techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'PostgreSQL'],
+      'A diagnostic analysis system predicting diabetic risk using Support Vector Machine (SVM) classifiers trained on Pima Indian diagnostic measurements.',
+    role: 'Trained the SVM classifier model, built Jupyter analysis workflows, and developed the web preview tool.',
+    client: 'Health Diagnostic System',
+    camera: 'Python, Support Vector Machine (SVM), pandas, scikit-learn, Streamlit',
+    location: 'Diagnostic ML inference',
+    techStack: ['Python', 'scikit-learn', 'SVM Classifier', 'pandas', 'NumPy', 'Streamlit'],
     highlights: [
-      'Delivered transparent PNG outputs with sub-5 second processing latency.',
-      'Engineered a RESTful backend for authentication, metadata persistence, and request validation.',
-      'Enforced per-user daily rate limits while supporting 100+ concurrent sessions.'
+      'Trained an SVM classifier achieving high recall on patient diabetic markers using Pima Indians dataset.',
+      'Engineered automated data preprocessing, outlier removal, and standard scaling pipelines for raw metrics.',
+      'Deployed a Streamlit web app providing direct interface for clinicians to input glucose, insulin, and blood pressure levels.'
     ],
     links: {
-      repo: 'https://github.com/parinith-web/purepixels'
+      repo: 'https://github.com/yuv9799/diabetes-predictor'
     },
     images: [
       {
         id: '3-1',
-        src: '/projects/purepixels.svg',
-        alt: 'PurePixels project cover',
+        src: 'https://images.unsplash.com/photo-1530026405186-ed1ea0ac7a63?auto=format&fit=crop&q=80&w=800',
+        alt: 'Diabetes Prediction dashboard',
         aspectRatio: 'landscape',
-        caption: 'Background removal pipeline with user-aware API workflows.'
+        caption: 'Diagnostic metrics input and SVM classifier model outcomes.'
       }
     ]
   },
   {
     id: '4',
-    title: 'F1 Strategy Prediction Engine',
-    category: 'Research ML',
+    title: 'Tab-Pocalypse: Memory Leak Simulator',
+    category: 'Canvas Simulation',
     year: '2026',
-    slug: 'f1-strategy-prediction-engine',
-    coverImage: '/projects/f1-strategy.svg',
+    slug: 'tab-pocalypse',
+    coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800',
     description:
-      'A motorsport strategy modeling system that combines telemetry cleaning, stint-level feature engineering, and chained ML models to predict lap time, pit timing, and tyre compound decisions.',
-    role: 'Designed the telemetry pipeline, feature engineering strategy, and model chain.',
-    client: 'Research Project',
-    camera: 'Python, XGBoost, Pandas, scikit-learn, Optuna, Streamlit',
-    location: 'Telemetry ingestion and race strategy prediction',
-    techStack: ['Python', 'XGBoost', 'Pandas', 'scikit-learn', 'Optuna', 'Streamlit'],
+      'A chaotic, real-time physics simulation and visual game that models browser memory leakage through falling tab physical bodies and dynamic system health metrics.',
+    role: 'Built the HTML5 Canvas physics engine, system load calculators, and interactive glitch animations.',
+    client: 'Interactive Web Simulation',
+    camera: 'JavaScript, HTML5 Canvas, Matter.js Physics concept, CSS Animations',
+    location: 'Browser-based execution',
+    techStack: ['JavaScript', 'HTML5 Canvas', 'Matter.js Physics', 'CSS Glitch Effects', 'Audio APIs'],
     highlights: [
-      'Processed 200k+ laps across 20+ circuits and 4 seasons using FastF1 telemetry ingestion.',
-      'Implemented safety-car filtering, fuel-load correction, and tyre degradation estimation using OLS slope fitting.',
-      'Designed chained models with season-blocked validation to avoid temporal leakage across 2021-2024 race data.'
+      'Engineered a 2D physics body environment representing browser tabs piling up with mass, bounce, and drag.',
+      'Created mock system metrics dashboards tracking CPU load, RAM leakage, temperature, and cognitive overload.',
+      'Designed progressive glitch UI overlays triggering an event-horizon collapse animation upon reaching limits.'
     ],
     links: {
-      repo: 'https://github.com/parinith-web/f1-strategy-ml'
+      repo: 'https://github.com/yuv9799/os-storage-manager'
     },
     images: [
       {
         id: '4-1',
-        src: '/projects/f1-strategy.svg',
-        alt: 'F1 Strategy Prediction Engine project cover',
+        src: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800',
+        alt: 'Tab-Pocalypse gameplay screenshot',
         aspectRatio: 'landscape',
-        caption: 'Race telemetry pipeline and chained models for strategy decisions.'
+        caption: 'Chaos simulation canvas with falling tab physics and metric bars.'
       }
     ]
   }

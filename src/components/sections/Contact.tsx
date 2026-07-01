@@ -20,26 +20,34 @@ export function Contact() {
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Button variant="outline" asChild>
-              <a href={`mailto:${photographerInfo.email}`} className="gap-2">
-                <Mail className="h-4 w-4" /> Email
-              </a>
-            </Button>
-            <Button variant="outline" asChild>
-              <a href={photographerInfo.socialLinks.leetcode} target="_blank" rel="noopener noreferrer" className="gap-2">
-                <Trophy className="h-4 w-4" /> LeetCode
-              </a>
-            </Button>
-            <Button variant="outline" asChild>
-              <a href={photographerInfo.socialLinks.github} target="_blank" rel="noopener noreferrer" className="gap-2">
-                <Github className="h-4 w-4" /> GitHub
-              </a>
-            </Button>
-            <Button variant="outline" asChild>
-              <a href={photographerInfo.socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="gap-2">
-                <Linkedin className="h-4 w-4" /> LinkedIn
-              </a>
-            </Button>
+            {photographerInfo.email && (
+              <Button variant="outline" asChild>
+                <a href={`mailto:${photographerInfo.email}`} className="gap-2">
+                  <Mail className="h-4 w-4" /> Email
+                </a>
+              </Button>
+            )}
+            {photographerInfo.socialLinks.leetcode && (
+              <Button variant="outline" asChild>
+                <a href={photographerInfo.socialLinks.leetcode} target="_blank" rel="noopener noreferrer" className="gap-2">
+                  <Trophy className="h-4 w-4" /> LeetCode
+                </a>
+              </Button>
+            )}
+            {photographerInfo.socialLinks.github && (
+              <Button variant="outline" asChild>
+                <a href={photographerInfo.socialLinks.github} target="_blank" rel="noopener noreferrer" className="gap-2">
+                  <Github className="h-4 w-4" /> GitHub
+                </a>
+              </Button>
+            )}
+            {photographerInfo.socialLinks.linkedin && (
+              <Button variant="outline" asChild>
+                <a href={photographerInfo.socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="gap-2">
+                  <Linkedin className="h-4 w-4" /> LinkedIn
+                </a>
+              </Button>
+            )}
           </div>
         </motion.div>
       </div>

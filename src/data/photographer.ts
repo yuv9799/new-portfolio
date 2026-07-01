@@ -1,39 +1,39 @@
 import type { PhotographerInfo } from '@/types';
 
 export const photographerInfo: PhotographerInfo = {
-  name: 'Parinith Reddy',
-  tagline: 'Backend Engineer, Full-Stack Developer & ML Enthusiast',
-  heroIntroduction: 'I build fast, thoughtful products at the intersection of backend systems, machine learning, and product design.',
-  biography: `I am a software development enthusiast currently pursuing Electronics and Communication Engineering at the National Institute of Technology Delhi. My work focuses on backend engineering, full-stack web development, and machine learning systems, with a strong grounding in data structures, scalable architectures, and practical product thinking.
+  name: 'Yuvraj Anand',
+  tagline: 'Software Engineer, Full-Stack Developer & AI Enthusiast',
+  heroIntroduction: 'I build performant, user-focused products at the intersection of full-stack engineering, cloud systems, and AI integration.',
+  biography: `I am a software engineer with a strong foundation in full stack web development and a growing specialisation in AI/ML integration. I build products with a product-engineering mindset — focused on performance, user experience, and clean, scalable architecture. I thrive at the intersection of engineering craft and real-world impact.
 
-Alongside software, I bring a strong design sensibility from my graphic design work at NIT Delhi. That combination helps me build products that are not only technically solid, but also intuitive, visually clear, and pleasant to use.`,
-  approach: `I like building products that are technically rigorous and immediately useful. My projects usually start with a systems problem or an ML workflow, then evolve into polished user-facing tools with clean interfaces, strong feedback loops, and reliable performance.
+I believe that the best software is built by engineers who understand the *why* behind the *what* — and I bring that clarity to every project I take on.`,
+  approach: `I focus on building products that solve real-world problems with high technical craft. My workflow spans writing clean backend logic, designing fast, responsive user interfaces, and integrating intelligent AI/ML models to create smooth, high-value user experiences.
 
-I am especially interested in scalable machine learning, similarity search, retrieval systems, and infrastructure that turns complex models into practical applications.`,
+I aim to write code that humans can read, machines can execute, and teams can maintain. Ship fast, iterate faster.`,
   awards: [
-    'Solved 175+ problems on LeetCode',
-    'Solved 200+ problems across AtCoder, Codeforces, and CodeChef',
-    'Conducting research on Locality Sensitive Hashing for image similarity search',
-    'Building ML-driven systems across recommendation, computer vision, and predictive modeling'
+    'Successfully built and deployed multiple full-stack and AI-driven applications',
+    'Proficient across multiple languages, frontend/backend frameworks, and database systems',
+    'Active contributor to open-source and personal developer experiments',
+    'Engineered custom real-time simulations and machine learning predictor platforms'
   ],
   clients: [
-    'Backend Engineering',
-    'Full-Stack Web Development',
-    'Machine Learning',
-    'Computer Vision',
-    'Retrieval-Augmented Generation',
-    'UI/UX Design'
+    'Full-Stack Web Engineering',
+    'AI/ML API Integration',
+    'Frontend Architecture',
+    'Backend & Databases',
+    'Product & UX Design',
+    'DevOps & Static Hosting'
   ],
-  education: 'B.Tech., Electronics and Communication Engineering, NIT Delhi (2024 - 2028)',
-  location: 'New Delhi, India',
-  email: 'parinithreddymavurapu@gmail.com',
-  phone: '+91 8328534237',
-  availability: 'Open to internships, collaborations, and impactful engineering projects.',
+  education: 'B.Tech., Computer Science & Engineering',
+  location: 'India',
+  email: 'yuvrajanand9799@gmail.com',
+  phone: '',
+  availability: 'Open to Full-Time Roles, Internships, and Open Source Collaborations.',
   socialLinks: {
-    github: 'https://github.com/parinith-web',
-    linkedin: 'https://linkedin.com/in/parinith-reddy',
-    portfolio: 'https://parinithreddymavurapu.vercel.app/',
-    leetcode: 'https://leetcode.com/u/parinith_reddy/'
+    github: 'https://github.com/yuv9799',
+    linkedin: 'https://www.linkedin.com/in/yuvraj-anand-74678231a/',
+    portfolio: 'https://github.com/yuv9799',
+    leetcode: ''
   },
-  portraitImage: '/profile-card.svg'
+  portraitImage: 'https://avatars.githubusercontent.com/u/218477354?v=4'
 };

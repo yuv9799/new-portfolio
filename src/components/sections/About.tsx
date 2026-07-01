@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, Code2, Brain } from "lucide-react";
+import { photographerInfo } from "@/data/photographer";
 
 export function About() {
   return (
@@ -12,15 +13,15 @@ export function About() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-sm font-medium tracking-widest uppercase text-muted-foreground mb-3">About</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">Parinith Reddy</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">{photographerInfo.name}</h2>
 
           <div className="flex items-center gap-2 text-muted-foreground mb-6">
             <MapPin className="w-4 h-4" />
-            <span className="text-sm">New Delhi, India</span>
+            <span className="text-sm">{photographerInfo.location}</span>
           </div>
 
-          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            Software development enthusiast with strong interests in backend engineering, full-stack development, and machine learning. Skilled in Python and C++ with strong foundations in data structures and scalable systems. Experienced in building ML-powered tools and full-stack platforms using modern frameworks.
+          <p className="text-lg text-muted-foreground leading-relaxed mb-8 whitespace-pre-line">
+            {photographerInfo.biography}
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

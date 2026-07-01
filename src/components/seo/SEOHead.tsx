@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { photographerInfo } from '@/data/photographer';
 
 interface SEOHeadProps {
   title?: string;
@@ -9,8 +10,8 @@ interface SEOHeadProps {
 }
 
 export function SEOHead({
-  title = 'Parinith Reddy - Software Engineer',
-  description = 'Building scalable backend systems, intelligent ML tools, and modern web applications.',
+  title = `${photographerInfo.name} - Software Engineer`,
+  description = 'Building full-stack web applications, machine learning integrations, and scalable products.',
   image = '',
   type = 'website'
 }: SEOHeadProps) {

@@ -73,7 +73,7 @@ export function Hero() {
         </div>
 
         <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl md:text-8xl" style={{ animation: "fade-up 0.8s ease-out 0.2s both" }}>
-          Parinith Reddy
+          {photographerInfo.name}
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg text-white/60 md:text-xl" style={{ animation: "fade-up 0.8s ease-out 0.4s both" }}>

@@ -26,7 +26,7 @@ export function Navbar() {
     >
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="text-lg font-bold text-foreground tracking-tight">
-          PR<span className="text-muted-foreground">.</span>
+          YA<span className="text-muted-foreground">.</span>
         </a>
 
         {/* Desktop */}

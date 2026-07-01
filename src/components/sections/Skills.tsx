@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["C++", "Python", "Go", "JavaScript", "TypeScript", "HTML", "CSS", "SQL"],
+    skills: ["JavaScript", "TypeScript", "Python", "Java", "HTML5", "CSS3", "SQL"],
   },
   {
-    title: "Frameworks / Libraries",
-    skills: ["NumPy", "Pandas", "PyTorch", "Scikit-learn", "FastAPI", "Flask", "TensorFlow", "OpenCV", "MediaPipe", "LangChain", "React", "Next.js", "Tailwind CSS"],
+    title: "Frontend Frameworks / Styling",
+    skills: ["React", "Next.js", "Tailwind CSS", "Vite", "Sass", "Bootstrap", "Framer Motion"],
   },
   {
-    title: "Expertise",
-    skills: ["Data Structures & Algorithms", "Web Development", "Machine Learning", "Computer Vision", "DBMS", "AWS", "RAG", "Scalable Backend Systems"],
+    title: "Backend & Databases",
+    skills: ["Node.js", "Express", "FastAPI", "MongoDB", "PostgreSQL", "MySQL", "Firebase"],
   },
   {
-    title: "Tools",
-    skills: ["Git", "Linux", "Docker", "VS Code", "Jupyter Notebook", "Figma", "Vercel"],
+    title: "AI / ML & Tools",
+    skills: ["Generative AI Integration", "Scikit-Learn", "Pandas", "NumPy", "OpenCV", "Git", "Docker", "Vercel", "Linux", "Figma"],
   },
 ];
 

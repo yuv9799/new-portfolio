@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { Trophy, Code, FlaskConical } from "lucide-react";
+import { Trophy, Code, Cpu } from "lucide-react";
 
 const achievements = [
-  { icon: Code, text: "175+ LeetCode problems solved across algorithms, databases, and problem solving." },
-  { icon: Trophy, text: "200+ additional problems solved across AtCoder, Codeforces, and CodeChef." },
-  { icon: FlaskConical, text: "Research focus on scalable ML, similarity search, and randomized algorithms." },
+  { icon: Code, text: "Built 16+ public repositories on GitHub across web development, simulations, and machine learning." },
+  { icon: Cpu, text: "Successfully trained and integrated SVM classifiers and K-Means segmentation algorithms into web backends." },
+  { icon: Trophy, text: "Created Tab-Pocalypse, a highly interactive physics simulator, and various Next.js SaaS prototypes." },
 ];
 
 export function Achievements() {
